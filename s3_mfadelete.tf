@@ -42,8 +42,8 @@ resource "aws_s3_bucket" "mfadelete5" {
   }
 }
 
-resource "aws_s3_bucket" "mfadelete6" {
-  bucket = "examplebuckettftest6"
+resource "aws_s3_bucket" "mfadelete610" {
+  bucket = "examplebuckettftest610"
   acl    = "private"
   versioning {
     enabled = false

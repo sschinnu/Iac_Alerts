@@ -42,3 +42,11 @@ resource "aws_s3_bucket" "mfadelete5" {
   }
 }
 
+resource "aws_s3_bucket" "mfadelete6" {
+  bucket = "examplebuckettftest6"
+  acl    = "private"
+  versioning {
+    enabled = false
+    mfa_delete = false
+  }
+}
